@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "safeguard-sps": {
+      "command": "python3",
+      "args": ["safeguard_sps_mcp_server.py"],
+      "env": {
+        "SPS_APPLIANCE_URL": "https://your-sps-appliance.example.com",
+        "SPS_VERIFY_SSL": "false"
+      }
+    }
+  }
+}
